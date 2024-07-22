@@ -8,8 +8,6 @@ jobs:
         steps:
             - name: Checkout Repo
               uses: actions/checkout@v4
-            - name: install nodejs
-              run: sudo apt install nodejs
             - name: Update the machine
               run: sudo apt update
 
