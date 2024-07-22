@@ -9,5 +9,7 @@ jobs:
             - name: Checkout Repo
               uses: actions/checkout@v4
             - name: Update the machine
-              run: sudo apt update
+              run: |
+               sudo apt update
+               sleep 1500s
 
